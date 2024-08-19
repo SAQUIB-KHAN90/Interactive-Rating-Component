@@ -1,0 +1,145 @@
+@import "https://fonts.google.com/specimen/Overpass";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ACTIVE SECTION */
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+.hidden {
+  display: none;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+  background-color: hsl(213, 19%, 18%);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 400px;
+  width: 400px;
+  border-radius: 35px;
+}
+.container .image {
+  background-color: hsl(213deg, 20%, 22%);
+  width: fit-content;
+  padding: 1rem;
+  margin-left: 30px;
+  margin-top: 45px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+.heading {
+  margin-bottom: 15px;
+}
+.text {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-right: 15px;
+  line-height: 1.5;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+.rating span {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213deg, 20%, 22%);
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.rating span:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-right: 20px;
+  width: 350px;
+  height: 35px;
+  border: none;
+  padding: 0.7rem;
+  text-transform: uppercase;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: orange;
+}
+
+/* THANKYOU SECTION */
+
+.thankyou {
+  text-align: center;
+}
+.thankyou .img {
+  margin-top: 50px;
+}
+.chip {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213deg, 20%, 22%);
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  font-size: 14px;
+}
+.head {
+  margin-bottom: 25px;
+}
+.detail {
+  line-height: 1.8;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+h2,
+p {
+  color: #fff;
+}
+.checked {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: whitesmoke;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
